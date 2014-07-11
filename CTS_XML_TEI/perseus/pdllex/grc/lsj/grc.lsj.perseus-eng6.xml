@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	               
+		              <!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guidelines/DTD/tei2.dtd" [
+                        <!ENTITY % TEI.XML "INCLUDE">
+                        <!ENTITY % PersDict PUBLIC "-//Perseus P4//DTD Perseus Dictionaries//EN" "http://www.perseus.tufts.edu/DTD/1.0/PersDict.dtd" >
+                        %PersDict;]>
+	                   
+                <TEI.2>
+   <teiHeader status="new" type="text" TEIform="teiHeader">
+      <fileDesc TEIform="fileDesc">
+         <titleStmt TEIform="titleStmt">
+	           <title TEIform="title">A Greek-English Lexicon</title>
+	           <title type="sub" TEIform="title">Machine readable text</title>
+	           <author TEIform="author">Henry George Liddell</author>
+	           <author TEIform="author">Robert Scott</author>
+            <sponsor TEIform="sponsor">Perseus Project, Tufts University</sponsor>
+		          <principal TEIform="principal">Gregory Crane</principal>
+		          <respStmt TEIform="respStmt">
+		             <resp TEIform="resp">Prepared under the supervision of</resp>
+		             <name TEIform="name">Lisa Cerrato</name>
+		             <name TEIform="name">William Merrill</name>
+		             <name TEIform="name">Elli Mylonas</name>
+		             <name TEIform="name">David Smith</name>
+		          </respStmt>
+            <funder n="org:NEH" TEIform="funder">The National Endowment for the Humanities</funder>
+         </titleStmt>
+	        <publicationStmt TEIform="publicationStmt">
+		          <publisher TEIform="publisher">Trustees of Tufts University</publisher>
+		          <pubPlace TEIform="pubPlace">Medford, MA</pubPlace>
+		          <authority TEIform="authority">Perseus Project</authority>
+		       </publicationStmt>
+         <sourceDesc default="NO" TEIform="sourceDesc">
+	           <biblStruct default="NO" TEIform="biblStruct">
+	              <monogr TEIform="monogr">
+	                 <author TEIform="author">Henry George Liddell</author>
+	                 <author TEIform="author">Robert Scott</author>
+	                 <title TEIform="title">A Greek-English Lexicon</title>
+	                 <respStmt TEIform="respStmt">
+	                    <resp TEIform="resp">revised and augmented throughout by</resp>
+	                    <name TEIform="name">Sir Henry Stuart Jones</name>
+	                    <resp TEIform="resp">with the assistance of</resp>
+	                    <name TEIform="name">Roderick McKenzie</name>
+	                 </respStmt>
+	                 <imprint TEIform="imprint">
+	                    <pubPlace TEIform="pubPlace">Oxford</pubPlace>
+	                    <publisher TEIform="publisher">Clarendon Press</publisher>
+	                    <date TEIform="date">1940</date>
+	                 </imprint>
+	              </monogr>
+	              <idno type="ISBN" TEIform="idno">0198642261</idno>
+	           </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+
+      <encodingDesc TEIform="encodingDesc">
+         <refsDecl doctype="TEI.2" TEIform="refsDecl">
+	           <state n="chunk" unit="entry" TEIform="state"/>
+         </refsDecl>
+         <refsDecl doctype="TEI.2" TEIform="refsDecl">
+	           <state unit="alphabetic letter" TEIform="state"/>
+	           <state unit="entry" TEIform="state"/>
+         </refsDecl>
+         <refsDecl doctype="TEI.2" TEIform="refsDecl">
+	           <state n="chunk" unit="frontmatter" TEIform="state"/>
+	           <state n="chunk" unit="subsection" TEIform="state"/>
+         </refsDecl>
+      </encodingDesc>
+    
+      <profileDesc TEIform="profileDesc">
+         <langUsage default="NO" TEIform="langUsage">
+	           <language id="en" TEIform="language">English
+	</language>
+            <language id="greek" TEIform="language">Greek
+	</language>
+            <language id="la" TEIform="language">Latin
+	</language>
+            <language id="fr" TEIform="language">French
+      </language>
+         </langUsage>
+      </profileDesc>
+    
+      <revisionDesc TEIform="revisionDesc">
+         <change TEIform="change">
+            <date TEIform="date">22 September 2000</date>
+	           <respStmt TEIform="respStmt">
+               <name TEIform="name">DAS</name>
+               <resp TEIform="resp">ed.</resp>
+            </respStmt>
+	           <item TEIform="item">
+$Log: lsj.xml,v $
+Revision 1.3  2014-07-10 1:31:29   akrohn01
+split the full lsj.xml into multiple files, splitting at the beginning of each letter section
+
+Revision 1.2  2014-07-09 1:29:00   akrohn01
+replaced most abo ids or abbreviations in bibl tags with cts urns or Trismegistos urls in the case of papyri
+
+Revision 1.1  2014-07-08 17:34:02  lcerrato
+latest version of file 08-Jul-14
+
+Revision 1.24  2013-10-15 19:10:30  lcerrato
+changed sense division and tagging in 42214
+
+Revision 1.23  2013-09-13 11:20:08  balmas01
+reverting texts back to pre_cts_reorg tagged version
+
+Revision 1.19  2013-03-22 20:14:14  lcerrato
+changed funder statement
+
+Revision 1.18  2013-02-05 20:13:54  balmas01
+escaping angle brackets in the revision history
+
+Revision 1.17  2013-01-30 21:51:29  lcerrato
+ciothe to clothe; &lt;tr&gt; to &lt;orth&gt;, tiqhmi def changes 31a/b added
+
+Revision 1.16  2012-02-22 22:02:39  lcerrato
+fixed small typo
+
+Revision 1.15  2012-02-22 20:00:58  lcerrato
+two small typos
+
+Revision 1.14  2012-02-22 19:35:10  lcerrato
+small typo
+
+Revision 1.13  2011-11-18 20:59:38  lcerrato
+fixed "truf" to "turf"
+
+Revision 1.12  2011-11-10 14:53:53  rsingh04
+Bug 966 - relabeling frontmatter section divs
+
+Revision 1.11  2011-10-28 15:37:11  lcerrato
+fixed spacing and quote issues in entry epishmos per user email
+
+Revision 1.10  2011-10-25 20:01:59  lcerrato
+fixed bibls to Sch. A. R. et al.
+
+Revision 1.9  2011-08-19 14:39:32  lcerrato
+xoprto to xorto in 47 instances
+
+Revision 1.8  2011-08-03 16:23:40  lcerrato
+fixed minor typo
+
+Revision 1.7  2011-08-02 19:07:28  lcerrato
+fixed minor typo(s)
+
+Revision 1.6  2011-03-21 19:48:37  lcerrato
+changed reference in h)=qos entry to 1460a11 from 1450a11
+
+Revision 1.5  2011-03-21 15:39:26  lcerrato
+fixed broken entry pantapasin
+
+Revision 1.4  2010/08/20 21:08:14  lcerrato
+fixing phi abos
+
+Revision 1.3  2010/03/15 18:48:56  lcerrato
+fixed typo accepled to accepted
+
+Revision 1.2  2010/02/11 16:29:05  rsingh04
+fixed entry n29246 (dusmh/twr) and combined entries n99904 and n99905 (sunekdapana/w)
+
+Revision 1.1  2009/12/01 18:28:03  rsingh04
+moved more xml files around based on copyright status
+
+Revision 1.22  2009/11/25 19:11:17  lcerrato
+fixed peta^nn-u/w (was peta^l-u/w)
+
+Revision 1.21  2009/09/17 19:16:17  lcerrato
+fixed typo with entries
+
+Revision 1.20  2009/09/10 18:28:28  lcerrato
+fixed minor typos and errors in data entry as well as wrong root words (paralog-)
+
+Revision 1.19  2009/09/08 20:39:32  lcerrato
+fixed typo
+
+Revision 1.18  2009/08/04 17:56:18  student
+fixed bibl errors - zr
+
+Revision 1.17  2009/07/31 17:50:01  rsingh04
+removed long and short marks from key attribute in entryFree tags so user can access any entry from the jump box without needing to input those marks
+
+Revision 1.16  2009/07/15 17:10:14  lcerrato
+fixed two typos verified against source: a)/po-kri^sis from a)/po-kri^sls and *lukaon-isti
+
+Revision 1.15  2009/05/19 21:05:26  lcerrato
+fixed bad bibls
+
+Revision 1.14  2009/01/27 20:57:43  lcerrato
+fixed problem with split entry
+
+Revision 1.13  2008/12/18 20:27:40  lcerrato
+fixing minor typos
+
+Revision 1.12  2008/12/17 21:03:56  lcerrato
+fixed minor typos plus eliminated entry 98366 (belonged with previous entry) not able to parse
+
+Revision 1.11  2008/05/05 16:19:20  rsingh04
+fixed abo references to perseus:abo:tlg,0017,001
+
+Revision 1.8  2007/11/08 20:02:31  lcerrato
+changed uexed to vexed
+
+Revision 1.7  2007/03/15 20:26:48  packel
+fixed typos
+
+Revision 1.6  2006/01/17 16:03:06  gcrane
+small mods
+
+Revision 1.5  2005/11/21 20:53:49  lcerrato
+fixed typos in entry eis
+
+Revision 1.4  2005/10/18 19:19:13  lcerrato
+three typos fixed
+
+Revision 1.3  2005/10/18 18:48:09  lcerrato
+fixed minor typo
+
+Revision 1.2  2004/12/14 20:14:41  packel
+added id tags to entries/senses
+
+Revision 1.1  2004/11/22 17:05:46  packel
+converted to P4/XML
+	
+Revision 1.5  2004/10/07 14:57:49  packel
+ϟ/[san   ] -&gt; koppa/san
+
+Revision 1.4  2004/09/02 15:31:17  packel
+for entries w/ identical keys, appended numbers to keys to distinguish them
+
+Revision 1.3  2004/06/16 17:50:22  lcerrato
+added entry for bioteuw, which was not separate from previous word
+also fixed polemou in same entry
+added space in entry for mwros after esti
+fixed translation which ended around key word because of typesetting in entry sxhmatizw
+fixed typos in entry for epignamptw
+
+Revision 1.2  2004/06/15 21:06:38  lcerrato
+1. malignant for malignat
+2. pe/rnhmi for perneul in piprasko entry
+3. removed space a)sebh/mata/
+4. removed for remoued
+5. vulgar for vhlgar
+6. a)nh/r for a)nh/o
+7. ravaging for rauaging
+8. bathe for dathe
+9. of light for oflight
+10. interperted to interpreted
+11. possil to possit
+12. trun to turn
+13. witty for wilty
+
+Revision 1.1  2003/01/09 22:34:05  amahoney
+this is now the official copy
+
+Revision 1.4  2001/04/14 00:48:17  dasmith
+Added funder.
+
+Revision 1.3  2001/02/28 20:07:01  dasmith
+Made headers mixed case.
+
+Revision 1.2  2001/02/23 20:46:20  dasmith
+Added preface.
+
+Revision 1.1  2000/12/07 21:14:07  dasmith
+Moved from special LSJ directory.
+
+Revision 1.5  2000/10/06 22:54:24  dasmith
+Chunk front matter on sections.
+
+Revision 1.4  2000/10/03 16:06:06  dasmith
+Fixed sourceDesc title.
+Added ISBN.
+
+Revision 1.3  2000/09/26 23:59:09  dasmith
+I didn't mean to make alphabetic letters chunk.
+
+Revision 1.2  2000/09/26 23:42:22  dasmith
+Added alphabet to refsDecl.
+
+Revision 1.1  2000/09/23 00:32:34  dasmith
+Preamble and TEI header for loose SGML LSJ.
+
+</item>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div0 n="*v"
+               type="alphabetic letter"
+               org="uniform"
+               sample="complete"
+               part="N"
+               TEIform="div0">
+            <head lang="greek" TEIform="head">*v</head>
+            <entryFree id="n46048"
+                       key="*v"
+                       type="main"
+                       opt="n"
+                       TEIform="entryFree">
+               <orth extent="full" lang="greek" opt="n" TEIform="orth">*v v</orth>(<etym lang="greek" opt="n" TEIform="etym">v</etym>), also &lt;*&gt;, sixth letter of the oldest Gr. alphabets, pronounced  <abbr TEIform="abbr">like</abbr>  Engl. <sense id="n46048.0" n="A" level="1" opt="n" TEIform="sense">
+                  <tr opt="n" TEIform="tr">w,</tr> 
+                  <bibl default="NO" TEIform="bibl">
+                     <author TEIform="author">IG</author>
+                     <biblScope TEIform="biblScope">9(1).334</biblScope>
+                  </bibl> (<gramGrp opt="n" TEIform="gramGrp">
+                     <gram type="dialect" opt="n" TEIform="gram">Locr.</gram>
+                  </gramGrp>, V B.C.), <bibl default="NO" TEIform="bibl">
+                     <biblScope TEIform="biblScope">4.333</biblScope>
+                  </bibl>, <bibl default="NO" TEIform="bibl">
+                     <biblScope TEIform="biblScope">14.2420</biblScope>
+                  </bibl>, <bibl n="urn:cts:greekLit:tlg0291.tlg001:23:6"
+                        default="NO"
+                        TEIform="bibl">
+                     <author TEIform="author">Alcm.</author> 
+                     <biblScope TEIform="biblScope">23.6</biblScope>
+                  </bibl>, <bibl n="urn:cts:greekLit:tlg0009.tlg001:1:6" default="NO" TEIform="bibl">
+                     <author TEIform="author">Sapph.</author>
+                     <title TEIform="title">Supp.</title>
+                     <biblScope TEIform="biblScope">1.6</biblScope>
+                  </bibl>, Corinn.ib.<bibl n="urn:cts:greekLit:tlg0009.tlg001:1:29"
+                        default="NO"
+                        TEIform="bibl">
+                     <biblScope TEIform="biblScope">1.29</biblScope>
+                  </bibl>, etc.; it was written in many dialects until <date TEIform="date">ii B.C.</date> (and pronounced even later); in others (incl. <gramGrp opt="n" TEIform="gramGrp">
+                     <gram type="dialect" opt="n" TEIform="gram">Ion.</gram>
+                  </gramGrp> and <gramGrp opt="n" TEIform="gramGrp">
+                     <gram type="dialect" opt="n" TEIform="gram">Att.</gram>
+                  </gramGrp>) it died out (with the sound) before the date of the earliest Inscrr., surviving only as a numeral,= <bibl n="urn:cts:greekLit:tlg0009.tlg001:6" default="NO" TEIform="bibl">
+                     <biblScope TEIform="biblScope">6</biblScope>
+                  </bibl>, in the form &lt;*&gt;,  <bibl default="NO" TEIform="bibl">
+                     <title TEIform="title">SIG</title> 
+                     <biblScope TEIform="biblScope">46.106</biblScope>
+                  </bibl> (Halic., V B.C.), <bibl default="NO" TEIform="bibl">
+                     <title TEIform="title">IG</title>
+                     <biblScope TEIform="biblScope">12.760</biblScope>
+                  </bibl> (Athens, V B.C.), <bibl n="Perseus:abo:pap,P.Cair.Zen.:13:4" default="NO" TEIform="bibl">
+                     <title TEIform="title">PCair.Zen.</title>
+                     <biblScope TEIform="biblScope">13.4</biblScope>
+                  </bibl> 
+                  <date TEIform="date">(iii B.C.)</date>, <title TEIform="title">BMus.Cat.Coins</title>, Egypt Pl.XVI<bibl n="Perseus:abo:pap,P.Cair.Zen.:4" default="NO" TEIform="bibl">
+                     <biblScope TEIform="biblScope">4</biblScope>
+                  </bibl> (<bibl n="Perseus:abo:pap,P.Cair.Zen.:200" default="NO" TEIform="bibl">
+                     <biblScope TEIform="biblScope">200</biblScope>
+                  </bibl>/<bibl n="Perseus:abo:pap,P.Cair.Zen.:199" default="NO" TEIform="bibl">
+                     <biblScope TEIform="biblScope">199</biblScope>
+                  </bibl> B.C.), later in the form <itype lang="greek" opt="n" TEIform="itype">z</itype>, ib.Egypt Pl.XXX<bibl n="Perseus:abo:pap,P.Cair.Zen.:5" default="NO" TEIform="bibl">
+                     <biblScope TEIform="biblScope">5</biblScope>
+                  </bibl> (<bibl n="Perseus:abo:pap,P.Cair.Zen.:47" default="NO" TEIform="bibl">
+                     <biblScope TEIform="biblScope">47</biblScope>
+                  </bibl> B.C.), <bibl default="NO" TEIform="bibl">
+                     <title TEIform="title">PMag.Lond.</title>
+                     <biblScope TEIform="biblScope">121.770</biblScope>
+                  </bibl> (<date TEIform="date">iii A.D.</date>, <bibl default="NO" TEIform="bibl">
+                     <author TEIform="author">Pl.</author>
+                     <biblScope TEIform="biblScope">61</biblScope>
+                  </bibl>) and medieval Mss. Its name was <foreign lang="greek" TEIform="foreign">vau=</foreign> (cf. Semitic <tr opt="n" TEIform="tr">wāw</tr>) acc. to Varro and Didymus (v. Varro <bibl default="NO" TEIform="bibl">
+                     <title TEIform="title">LL</title>
+                     <biblScope TEIform="biblScope">p.209</biblScope>
+                  </bibl> G.-<bibl default="NO" TEIform="bibl">
+                     <author TEIform="author">S.</author>
+                  </bibl>), later <foreign lang="greek" TEIform="foreign">di/gamma</foreign> (q.v.). (Words with initial <itype lang="greek" opt="n" TEIform="itype">v</itype> will bc found under the second letter.)</sense>
+            </entryFree>
+         </div0>
+      </body>
+   </text>
+</TEI.2>
