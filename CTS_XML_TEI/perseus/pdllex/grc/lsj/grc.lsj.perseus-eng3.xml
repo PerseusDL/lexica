@@ -31977,7 +31977,7 @@ Preamble and TEI header for loose SGML LSJ.
                      </bibl>
                   </cit>. </sense>
                <sense n="b" id="n22209.4" level="4" opt="n" TEIform="sense"> 
-                  <tr opt="n" TEIform="tr">falldue</tr>, <cit TEIform="cit">
+                  <tr opt="n" TEIform="tr">fall due</tr>, <cit TEIform="cit">
                      <quote lang="greek" TEIform="quote">oi( gigno/menoi dasmoi/</quote> 
                      <bibl n="urn:cts:greekLit:tlg0032.tlg006.perseus-grc1:1:1:8"
                            default="NO"
