@@ -7555,13 +7555,13 @@ Preamble and TEI header for loose SGML LSJ.
                      <biblScope TEIform="biblScope">380</biblScope>
                   </bibl>.—  <gramGrp opt="n" TEIform="gramGrp">
                      <gram type="dialect" opt="n" TEIform="gram">Att.</gram>
-                  </gramGrp> d&lt;*&gt;&lt;*&gt;&lt;*&gt;  <foreign lang="greek" TEIform="foreign">new&lt;*&gt;n </foreign>(<foreign lang="greek" TEIform="foreign">nhw&lt;*&gt;n</foreign> is  <abbr TEIform="abbr">v.l. in</abbr> 
+                  </gramGrp> declens. <foreign lang="greek" TEIform="foreign">nau=s, new/s, nhi+, nau=n,</foreign> dual gen. and dat. <foreign lang="greek" TEIform="foreign">neo=in,</foreign> pl. <foreign lang="greek" TEIform="foreign">nh=es, new=n</foreign> (<foreign lang="greek" TEIform="foreign">nhw=n</foreign> is  <abbr TEIform="abbr">v. l. in</abbr> 
                   <bibl n="urn:cts:greekLit:tlg0540.tlg013.perseus-grc1:15"
                         default="NO"
                         TEIform="bibl">
                      <author TEIform="author">Lys.</author>
                      <biblScope TEIform="biblScope">13.15</biblScope>
-                  </bibl>), <foreign lang="greek" TEIform="foreign">nauoi/, nau&lt;*&gt;s</foreign>; in later writers, &lt;*&gt;m. pl.  <foreign lang="greek" TEIform="foreign">nau=s,</foreign> acc. pl. <foreign lang="greek" TEIform="foreign">nh=as,</foreign> 
+                  </bibl>), <foreign lang="greek" TEIform="foreign">nausi/, nau=s</foreign>; in later writers, nom. pl.  <foreign lang="greek" TEIform="foreign">nau=s,</foreign> acc. pl. <foreign lang="greek" TEIform="foreign">nh=as,</foreign> 
                   <bibl n="urn:cts:greekLit:tlg0060.tlg001.perseus-grc3:13:13"
                         default="NO"
                         TEIform="bibl">
