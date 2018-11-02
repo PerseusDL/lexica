@@ -18,8 +18,6 @@
 		          <respStmt TEIform="respStmt">
 		             <resp TEIform="resp">Prepared under the supervision of</resp>
 		             <name TEIform="name">Lisa Cerrato</name>
-		             <name TEIform="name">William Merrill</name>
-		             <name TEIform="name">Elli Mylonas</name>
 		             <name TEIform="name">David Smith</name>
 		          </respStmt>
             <funder n="org:NEH" TEIform="funder">The National Endowment for the Humanities</funder>
@@ -28,6 +26,7 @@
 		          <publisher TEIform="publisher">Trustees of Tufts University</publisher>
 		          <pubPlace TEIform="pubPlace">Medford, MA</pubPlace>
 		          <authority TEIform="authority">Perseus Project</authority>
+	           <date TEIform="date">1995-09</date> <!-- release date -->
 		       </publicationStmt>
          <sourceDesc default="NO" TEIform="sourceDesc">
 	           <biblStruct default="NO" TEIform="biblStruct">
