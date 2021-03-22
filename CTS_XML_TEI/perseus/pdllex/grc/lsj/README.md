@@ -1,4 +1,4 @@
-This text may be freely distributed under a CC BY-SA 3.0 license, subject to the following restrictions: 
+This text may be freely distributed under a CC BY-SA 4.0 license, subject to the following restrictions: 
 
 You credit Perseus, as follows, whenever you use the document:
 
