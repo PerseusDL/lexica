@@ -17353,7 +17353,7 @@ Preamble and TEI header for loose SGML LSJ.
                        opt="n"
                        TEIform="entryFree">
                <orth extent="suff" lang="greek" opt="n" TEIform="orth">r(izo/-shmos</orth>, <itype lang="greek" opt="n" TEIform="itype">on</itype>, <sense id="n92425.0" n="A" level="1" opt="n" TEIform="sense">
-                  <tr opt="n" TEIform="tr">with a stripc of vegetable purple</tr> (cf. <foreign lang="greek" TEIform="foreign">r(i/zion</foreign>), <bibl n="Perseus:abo:pap,P.Oxy.:1051:3" default="NO" TEIform="bibl">
+                  <tr opt="n" TEIform="tr">with a stripe of vegetable purple</tr> (cf. <foreign lang="greek" TEIform="foreign">r(i/zion</foreign>), <bibl n="Perseus:abo:pap,P.Oxy.:1051:3" default="NO" TEIform="bibl">
                      <title TEIform="title">POxy.</title>
                      <biblScope TEIform="biblScope">1051.3</biblScope>
                   </bibl> 
