@@ -1,6 +1,8 @@
-NB
-lat.ls.perseus-eng1.xml contains Greek in beta code.
-lat.ls.perseus-eng2.xml contains Greekconverted to Unicode.
+NB     
+lat.ls.perseus-eng1.xml contains Greek in beta code     
+lat.ls.perseus-eng2.xml contains Greekconverted to Unicode     
+
+==========================================================
 
 This text may be freely distributed under a CC BY-SA 4.0 license, subject to the following restrictions: 
 
