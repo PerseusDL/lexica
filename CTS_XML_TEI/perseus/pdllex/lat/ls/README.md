@@ -1,6 +1,6 @@
 NB     
 lat.ls.perseus-eng1.xml contains Greek in beta code     
-lat.ls.perseus-eng2.xml contains Greekconverted to Unicode     
+lat.ls.perseus-eng2.xml contains Greek converted to Unicode     
 
 ==========================================================
 
