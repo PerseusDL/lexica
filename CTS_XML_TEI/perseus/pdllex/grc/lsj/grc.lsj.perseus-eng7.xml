@@ -17450,7 +17450,7 @@ Preamble and TEI header for loose SGML LSJ.
                        opt="n"
                        TEIform="entryFree">
                <orth extent="suff" lang="greek" opt="n" TEIform="orth">zw|o/fa^g-os</orth>, <itype lang="greek" opt="n" TEIform="itype">on</itype>, <sense id="n46515.0" n="A" level="1" opt="n" TEIform="sense">
-                  <tr opt="n" TEIform="tr">carriivorous</tr>, opp. <foreign lang="greek" TEIform="foreign">karpofa/gos</foreign>, <bibl n="urn:cts:greekLit:tlg0086.tlg035.perseus-grc1:1256a:25"
+                  <tr opt="n" TEIform="tr">carnivorous</tr>, opp. <foreign lang="greek" TEIform="foreign">karpofa/gos</foreign>, <bibl n="urn:cts:greekLit:tlg0086.tlg035.perseus-grc1:1256a:25"
                         default="NO"
                         TEIform="bibl">
                      <author TEIform="author">Arist.</author>
