@@ -6,14 +6,10 @@ lat.ls.perseus-eng2.xml contains Greek converted to Unicode (use this for edits)
 
 This text may be freely distributed under a CC BY-SA 4.0 license, subject to the following restrictions: 
 
-You credit Perseus, as follows, whenever you use the document:
+Available under a Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/). 
 
-    Text provided under a CC BY-SA license by Perseus Digital Library, http://www.perseus.tufts.edu, with funding from The National Endowment for the Humanities.
-    Data accessed from https://github.com/PerseusDL/lexica/ [date of access].
+You must credit the Perseus Digital Library with a link to https://www.perseus.tufts.edu/ and/or the source GitHub repository and offer Perseus any modifications made. 
 
-You leave this availability statement intact
+Retain traceback links with the text whenever possible.
 
-You offer Perseus any modifications you make.
-
-Please include file header information found in <fileDesc> or <sourceDesc> tags: particularly title, authors, publisher, ISBN, etc. whenever possible.
-
+We encourage the use of any suitable standard bibliographic citation.

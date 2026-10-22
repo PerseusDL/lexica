@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-	               
-		              <!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Vault/P4/xml/schema/dtd/tei2.dtd" [
-                        <!ENTITY % TEI.XML "INCLUDE">
-                        <!ENTITY % PersDict PUBLIC "-//Perseus P4//DTD Perseus Dictionaries//EN" "http://www.perseus.tufts.edu/DTD/1.0/PersDict.dtd" >
-                        %PersDict;]>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Vault/P4/xml/schema/dtd/tei2.dtd" [ <!ENTITY % TEI.XML "INCLUDE"> <!ENTITY % PersDict PUBLIC "-//Perseus P4//DTD Perseus Dictionaries//EN" "http://www.perseus.tufts.edu/DTD/1.0/PersDict.dtd" > %PersDict;]>
 	                   
                 <TEI.2>
    <teiHeader status="new" type="text" TEIform="teiHeader">
@@ -27,6 +23,9 @@
 		          <pubPlace TEIform="pubPlace">Medford, MA</pubPlace>
 		          <authority TEIform="authority">Perseus Project</authority>
 	           <date TEIform="date">1995-09</date> <!-- release date -->
+	           <availability TEIform="availability">
+	              <p>Please consult the readme.md file in the enclosing folder.</p>
+	           </availability>
 		       </publicationStmt>
          <sourceDesc default="NO" TEIform="sourceDesc">
 	           <biblStruct default="NO" TEIform="biblStruct">

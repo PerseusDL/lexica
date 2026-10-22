@@ -29,6 +29,8 @@
         <authority>Perseus Project</authority>
         <date>1997-10-28</date>
         <!-- release date -->
+        <availability>
+        <p>This is a deprecated file that contains unconverted beta code and does not reflect any recent work. It is maintained for archival purposes. Do not use without express permission.</p></availability>
       </publicationStmt>
       <sourceDesc>
 	<biblStruct>
