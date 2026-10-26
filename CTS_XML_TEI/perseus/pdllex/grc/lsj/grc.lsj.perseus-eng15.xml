@@ -23,7 +23,7 @@
 		          <authority TEIform="authority">Perseus Project</authority>
 	           <date TEIform="date">1995-09</date> <!-- release date -->
 	           <availability TEIform="availability">
-	              <p>Please consult the readme.md file in the enclosing folder.</p>
+	              <p>Available under a Creative Commons Attribution-ShareAlike (CC BY-SA) license (https://creativecommons.org/licenses/by-sa/4.0/). Reuse must credit the Perseus Digital Library in a standard bibliographic format, including a link to http://www.perseus.tufts.edu/. Each text reused should be individually identified and linked to its source GitHub repository whenever possible, either in its citation or in an accompanying source list. All corrections must be offered to the Perseus Digital Library.</p>
 	           </availability>
 		       </publicationStmt>
          <sourceDesc default="NO" TEIform="sourceDesc">
